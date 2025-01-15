@@ -26,35 +26,7 @@ This project applies **SAM (Segment Anything Model)** to segment buildings in hi
 - **Interactive Maps**: Visualize segmentation on geospatial maps.
 - **Exportable Results**: Save masks for downstream applications.
 
----
 
-
-## 📖 **Usage**
-
-### 1. **Load Your Satellite Image**
-Add your satellite image (GeoTIFF, JPEG, etc.) to the project folder.
-
-### 2. **Run the Segmentation**
-Here's an example to segment buildings using a custom ROI:
-
-### 3. **Visualize Results**
-Overlay results on interactive maps with **Leafmap**.
-
----
-
-## 🗂️ **Project Structure**
-
-```
-your-repo-name/
-│
-├── data/                # Input satellite images
-├── outputs/             # Generated segmentation masks
-├── notebooks/           # Jupyter notebooks for experiments
-├── scripts/             # Python scripts
-├── requirements.txt     # Dependencies
-├── README.md            # Documentation
-└── main.py              # Main executable script
-```
 
 ---
 
